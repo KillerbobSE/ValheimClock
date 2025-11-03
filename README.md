@@ -30,7 +30,7 @@ A simple and elegant analog clock mod for Valheim that displays the in-game time
 ## Configuration
 
 After first launch, a config file will be created at:
-`BepInEx/config/com.yourname.valheimclock.cfg`
+`BepInEx/config/com.killerbob.valheimclock.cfg`
 
 **Available settings:**
 - `Enabled` (true/false) - Enable/disable the clock
@@ -73,7 +73,7 @@ MIT License - feel free to modify and redistribute
 
 ## Credits
 
-Created by YourName for the Valheim modding community
+Created by Killerbob for the Valheim modding community
 
 ## Support
 

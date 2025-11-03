@@ -27,7 +27,7 @@ A simple and elegant analog clock that displays Valheim's in-game time.
 ## Configuration
 
 After first launch, a config file will be created at:
-`BepInEx/config/com.yourname.valheimwatch.cfg`
+`BepInEx/config/com.killerbob.valheimclock.cfg`
 
 **Available settings:**
 - `Enabled` - Enable/disable the clock (default: true)

@@ -11,7 +11,7 @@ namespace ValheimPlugin
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.yourname.valheimclock";
+        public const string PluginGUID = "com.killerbob.valheimclock";
         public const string PluginName = "ValheimClock";
         public const string PluginVersion = "1.0.0";
 
