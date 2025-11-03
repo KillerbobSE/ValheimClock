@@ -1,0 +1,29 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+# Release packages
+Release/
+ThunderstorePackage/
+*.zip
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.old

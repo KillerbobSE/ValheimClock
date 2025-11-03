@@ -1,0 +1,9 @@
+{
+  "name": "ValheimClock",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/yourname/ValheimClock",
+  "description": "A simple analog clock showing Valheim's in-game time in the top center of the screen",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2200"
+  ]
+}
