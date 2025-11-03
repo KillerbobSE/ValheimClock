@@ -3,7 +3,7 @@
 [center][size=6][b]Valheim Clock[/b][/size]
 [i]Keep track of time in Valheim with a simple, elegant analog clock[/i]
 
-[img]https://i.imgur.com/YOUR_SCREENSHOT_HERE.png[/img][/center]
+[img]https://github.com/KillerbobSE/ValheimClock/blob/main/clock.png[/img][/center]
 
 ---
 
