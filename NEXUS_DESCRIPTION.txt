@@ -1,0 +1,194 @@
+# Valheim Clock - Analog In-Game Time Display
+
+[center][size=6][b]Valheim Clock[/b][/size]
+[i]Keep track of time in Valheim with a simple, elegant analog clock[/i]
+
+[img]https://i.imgur.com/YOUR_SCREENSHOT_HERE.png[/img][/center]
+
+---
+
+[size=5][b]Description[/b][/size]
+
+Tired of losing track of time while exploring the dangerous lands of Valheim? **Valheim Clock** adds a clean, unobtrusive analog clock to your HUD that displays the current in-game time. Whether you're planning your adventures around the day/night cycle or just want to know when to head back home before dark, this mod has you covered.
+
+The clock seamlessly integrates into the game's UI, appearing only when you're actually playing - no clutter in menus or during loading screens.
+
+---
+
+[size=5][b]Features[/b][/size]
+
+[list]
+[*][b]Analog Clock Display[/b] - Classic clock face showing Valheim's day/night cycle
+[*][b]Pixel-Perfect Rendering[/b] - Crystal clear 100x100 pixel display
+[*][b]Transparent Background[/b] - Blends naturally with the game's aesthetic
+[*][b]Smart Visibility[/b] - Only appears during gameplay, not in menus
+[*][b]Fully Configurable[/b] - Adjust size or disable via config file
+[*][b]Lightweight[/b] - Minimal performance impact
+[*][b]No Conflicts[/b] - Works alongside other UI mods
+[/list]
+
+---
+
+[size=5][b]Installation[/b][/size]
+
+[size=4][b]Requirements:[/b][/size]
+[list]
+[*][url=https://www.nexusmods.com/valheim/mods/1]BepInEx 5.4.x or later[/url]
+[*]Valheim (latest version)
+[/list]
+
+[size=4][b]Installation Steps:[/b][/size]
+[list=1]
+[*]Install [url=https://www.nexusmods.com/valheim/mods/1]BepInEx[/url] if you haven't already
+[*]Download Valheim Clock from the Files tab
+[*]Extract the downloaded ZIP file
+[*]Copy [b]ValheimPlugin.dll[/b] and [b]clock.png[/b] to your [b]BepInEx/plugins/[/b] folder
+[*]Launch Valheim and enjoy!
+[/list]
+
+[b]Typical installation path:[/b]
+[code]C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\[/code]
+
+---
+
+[size=5][b]Configuration[/b][/size]
+
+After launching the game once, a configuration file will be created at:
+[code]BepInEx/config/com.killerbob.valheimclock.cfg[/code]
+
+[b]Available Settings:[/b]
+[list]
+[*][b]Enabled[/b] (true/false) - Toggle the clock on or off
+[*][b]ClockSize[/b] (default: 100) - Adjust the size in pixels
+[/list]
+
+To edit, open the config file in any text editor, make your changes, save, and restart the game.
+
+---
+
+[size=5][b]Screenshots[/b][/size]
+
+[i]See the Images tab for in-game screenshots showing the clock in different biomes and times of day![/i]
+
+---
+
+[size=5][b]Compatibility[/b][/size]
+
+✅ [b]Compatible with:[/b]
+[list]
+[*]All other BepInEx mods
+[*]Valheim Plus
+[*]Most UI/HUD mods
+[*]Both single-player and multiplayer (client-side only)
+[/list]
+
+⚠️ [b]Note:[/b] This is a client-side mod. Other players don't need to have it installed.
+
+---
+
+[size=5][b]Troubleshooting[/b][/size]
+
+[b]Clock doesn't appear:[/b]
+[list]
+[*]Verify both [b]ValheimPlugin.dll[/b] and [b]clock.png[/b] are in the plugins folder
+[*]Check that BepInEx is properly installed (you should see a console window when launching)
+[*]Press [b]F5[/b] in-game to open the BepInEx console and check for errors
+[*]Review the log file at [code]BepInEx/LogOutput.log[/code]
+[/list]
+
+[b]Clock is too big/small:[/b]
+[list]
+[*]Open [code]BepInEx/config/com.killerbob.valheimclock.cfg[/code]
+[*]Change the [b]ClockSize[/b] value (try 75 for smaller, 150 for larger)
+[*]Save and restart the game
+[/list]
+
+[b]Clock appears in menus:[/b]
+[list]
+[*]This shouldn't happen - please report with your log file
+[/list]
+
+---
+
+[size=5][b]FAQ[/b][/size]
+
+[b]Q: Does this affect game performance?[/b]
+A: No, the mod is extremely lightweight and has negligible performance impact.
+
+[b]Q: Will this work in multiplayer?[/b]
+A: Yes! It's client-side only, so only you see your clock. Other players don't need the mod.
+
+[b]Q: Can I change the clock face design?[/b]
+A: Yes! Replace the [b]clock.png[/b] file in the plugins folder with your own 100x100 PNG image.
+
+[b]Q: Does this work with Valheim Plus?[/b]
+A: Absolutely! It's compatible with Valheim Plus and most other mods.
+
+[b]Q: Is this safe to add to an existing save?[/b]
+A: Yes, it's completely safe and won't affect your save files in any way.
+
+[b]Q: Can I move the clock position?[/b]
+A: Currently it's fixed at the top center. More positioning options may come in future updates!
+
+---
+
+[size=5][b]Future Plans[/b][/size]
+
+[list]
+[*]🔄 Customizable clock position
+[*]🎨 Multiple clock face designs
+[*]⚙️ In-game configuration menu
+[*]🌙 Day counter display
+[*]📅 Season indicator (if applicable)
+[/list]
+
+Got suggestions? Leave a comment below!
+
+---
+
+[size=5][b]Support & Feedback[/b][/size]
+
+If you enjoy this mod, please consider:
+[list]
+[*]⭐ [b]Endorsing[/b] the mod
+[*]💬 Leaving a comment with your feedback
+[*]🐛 Reporting any bugs in the bugs section
+[*]📸 Sharing screenshots of the clock in action
+[/list]
+
+For bug reports, please include:
+[list]
+[*]Your Valheim version
+[*]Your BepInEx version
+[*]The [code]LogOutput.log[/code] file from BepInEx folder
+[*]Steps to reproduce the issue
+[/list]
+
+---
+
+[size=5][b]Credits & License[/b][/size]
+
+[b]Created by:[/b] Killerbob
+[b]License:[/b] MIT License - Feel free to modify and use in your own projects!
+
+Special thanks to the Valheim modding community and the BepInEx team.
+
+---
+
+[size=5][b]Changelog[/b][/size]
+
+[size=4][b]Version 1.0.0[/b] (November 3, 2025)[/size]
+[list]
+[*]Initial release
+[*]Analog clock showing in-game time
+[*]Configurable size
+[*]Transparent clock face
+[*]Smart visibility (only in-game)
+[*]Pixel-perfect rendering
+[/list]
+
+---
+
+[center][size=4][b]Enjoy your adventures in Valheim, and never lose track of time again![/b][/size]
+
+[url=https://github.com/KillerbobSE/ValheimClock][img]https://img.shields.io/badge/GitHub-Source-blue[/img][/url][/center]
